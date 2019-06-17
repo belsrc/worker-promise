@@ -7,7 +7,7 @@
   "description": "",
   "main": "dist/index.js",
   "files": [
-    "dist/index.js"
+    "dist"
   ],
   "gitHooks": {
     "commit-msg": "commitlint -E GIT_PARAMS",

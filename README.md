@@ -2,12 +2,12 @@
 
 Simple little Promise wrapper for WebWorkers. Make your workers pinky swear.
 
+<!-- [![Build Status](https://img.shields.io/travis/belsrc/worker-promise.svg?style=flat-square)](https://travis-ci.org/belsrc/worker-promise) -->
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/belsrc/worker-promise.svg?style=flat-square)](https://codeclimate.com/github/belsrc/worker-promise/maintainability)
+<!-- [![Code Coverage](https://img.shields.io/codeclimate/coverage/belsrc/worker-promise?logo=code%20climate&style=flat-square)](https://codeclimate.com/github/belsrc/worker-promise/test_coverage) -->
 [![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/belsrc/worker-promise.svg?style=flat-square)](https://app.snyk.io/org/belsrc/project/0ce40a71-5a13-463f-83c7-94ac544b5770)
 [![Last Commit](https://img.shields.io/github/last-commit/belsrc/worker-promise/master.svg?style=flat-square)](https://github.com/belsrc/worker-promise/commits/master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/belsrc/worker-promise/pulls)
-<!-- [![Build Status](https://img.shields.io/travis/belsrc/worker-promise.svg?style=flat-square)](https://travis-ci.org/belsrc/worker-promise) -->
-<!-- [![Code Coverage](https://img.shields.io/codecov/c/github/belsrc/worker-promise/master.svg?style=flat-square)](https://codecov.io/gh/belsrc/worker-promise/branch/master) -->
 
 # Install
 

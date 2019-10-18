@@ -1,4 +1,5 @@
-import workerPromise from './../../src';
+/* eslint-disable import/default, promise/catch-or-return, promise/prefer-await-to-then */
+import workerPromise from '../../src';
 import Worker from './process.worker';
 
 const main = async () => {

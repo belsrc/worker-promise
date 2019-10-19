@@ -16,6 +16,7 @@ npm i -s @belsrc/worker-promise
 ```
 
 # Use
+
 ```js
 // Example using webpack and worker-loader
 import workerPromise from '@belsrc/worker-promise';

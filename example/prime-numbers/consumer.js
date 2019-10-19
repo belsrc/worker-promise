@@ -1,4 +1,4 @@
-/* eslint-disable import/default, promise/catch-or-return, promise/prefer-await-to-then */
+/* eslint-disable import/default, promise/prefer-await-to-then, promise/catch-or-return */
 import workerPromise from '../../src';
 import Worker from './process.worker';
 

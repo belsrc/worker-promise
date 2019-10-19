@@ -1,6 +1,4 @@
-/* eslint-disable promise/catch-or-return, promise/prefer-await-to-then, promise/always-return */
-/* eslint-disable array-element-newline, array-bracket-newline */
-/* eslint-disable promise/prefer-await-to-callbacks */
+/* eslint-disable promise/prefer-await-to-callbacks, array-element-newline, array-bracket-newline */
 import '@babel/register';
 import 'jsdom-worker';
 import workerPromise from './index';
@@ -53,4 +51,3 @@ describe('worker-promise', () => {
     });
   });
 });
-

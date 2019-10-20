@@ -19,7 +19,7 @@
     "clean": "npm-run-all prettier lint",
     "test": "jest --verbose",
     "test:changed": "jest -o",
-    "test:cov": "jest --verbose --coverage",
+    "coverage": "jest --verbose --coverage",
     "build": "npx babel src --out-dir dist --ignore **/*.test.js",
     "pre-commit-hook": "npm-run-all clean test:changed"
   },

@@ -21,8 +21,7 @@
     "test:changed": "jest -o",
     "test:cov": "jest --verbose --coverage",
     "build": "npx babel src --out-dir dist --ignore **/*.test.js",
-    "pre-commit-hook": "npm-run-all clean test:changed",
-    "check": "npx npm-check -u"
+    "pre-commit-hook": "npm-run-all clean test:changed"
   },
   "jest": {
     "coverageDirectory": "coverage",
@@ -62,9 +61,11 @@
     "eslint-config-belsrc": "1.1.0",
     "jest": "24.9.0",
     "jsdom-worker": "0.1.0",
-    "npm-check": "5.9.0",
     "npm-run-all": "4.1.5",
     "prettier": "1.18.2",
     "yorkie": "2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.0"
   }
 }

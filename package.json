@@ -1,6 +1,6 @@
 {
   "name": "@belsrc/worker-promise",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Wrap WebWorker interactions in a Promise or callback",
   "main": "dist/index.js",
   "files": [

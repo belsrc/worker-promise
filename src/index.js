@@ -1,6 +1,7 @@
 const callbackWorker = (worker, val, fn) => {
   try {
-    worker.addEventListener('message', ({ data }) => fn(null, data));
+    worker.addEventListener('message', ({ data }) =>
+      data.error ? fn(new Error(data.error)) : fn(null, data));
     worker.addEventListener('error', error => fn(error));
     worker.postMessage(val);
   }
@@ -14,7 +15,8 @@ const promiseWorker = (worker, val) =>
   Promise.resolve().then(() =>
     new Promise((resolve, reject) => {
       try {
-        worker.addEventListener('message', ({ data }) => resolve(data));
+        worker.addEventListener('message', ({ data }) =>
+          data.error ? reject(new Error(data.error)) : resolve(data));
         worker.addEventListener('error', error => reject(error));
         worker.postMessage(val);
       }

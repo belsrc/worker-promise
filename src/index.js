@@ -1,8 +1,8 @@
 const callbackWorker = (worker, val, fn) => {
   try {
     worker.addEventListener('message', ({ data }) =>
-      data.error ? fn(new Error(data.error)) : fn(null, data));
-    worker.addEventListener('error', error => fn(error));
+      data.error ? fn(new Error(data.error), data) : fn(null, data));
+    worker.addEventListener('error', error => fn(error, {}));
     worker.postMessage(val);
   }
   catch(error) {
